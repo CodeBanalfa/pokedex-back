@@ -114,7 +114,7 @@
             <repository>
              <id>ossrh</id>
               <name>Central Repository OSSRH</name>
-             <url>https://oss.sonatype.org/Codebanalf/pokemon-back</url>
+             <url>https://oss.sonatype.org/CodeBanalfa/REPOSITORY</url>
           </repository>
          </distributionManagement>
 
