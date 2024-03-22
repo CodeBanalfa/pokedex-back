@@ -70,7 +70,6 @@
 	<build>
 		<plugins>
 			<plugins>
-            <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
@@ -106,20 +105,7 @@
                     <xmlOutput>true</xmlOutput>
                     <failOnError>false</failOnError>
                 </configuration>
-            </plugin>
-
-        </plugins> 
-			<plugin>
-                     <groupId>com.github.spotbugs</groupId>
-                      <artifactId>spotbugs-maven-plugin</artifactId>
-                        <version>4.8.3.0</version>
-                      <configuration>
-					  <effort>Max</effort>
-					  <threshold>high</threshold>
-                      <xmlOutput>true</xmlOutput>
-                      <failOnError>false</failOnError>
-                      </configuration>
-            </plugin>
+            </plugin>			
 		</plugins>
 	</build>
 
