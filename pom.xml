@@ -114,7 +114,7 @@
             <repository>
              <id>ossrh</id>
               <name>Central Repository OSSRH</name>
-             <url>https://oss.sonatype.org/CodeBanalfa/REPOSITORY</url>
+             <url>https://maven.pkg.github.com/CodeBanalfa/pokedex-back</url>
           </repository>
          </distributionManagement>
 
