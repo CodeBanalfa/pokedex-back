@@ -20,6 +20,7 @@ jobs:
       - uses: lcollins/checkstyle-github-action@v2.0.0
         with:
           path: "**/checkstyle-result.xml"
+
       - name: PMD with Maven
         run: mvn pmd:pmd
       - uses: lcollins/pmd-github-action@v2.0.0
