@@ -1,7 +1,5 @@
-name: Maven publish
-on:
-  push:
-    branches: ["master"]
+name: jar publish
+on: pull_request
 
 jobs:
   checkstyle:
