@@ -1,9 +1,11 @@
 name: jar publish
+
 on: pull_request
 
 jobs:
-  bulid:
+  build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
       - name: Set up JDK 17
@@ -15,6 +17,6 @@ jobs:
 
       - name: Build with Maven
         run: mvn checkstyle:check
-      - uses: locllins/checkstyle-github-action@v2.0.0
+      - uses: lcollins/checkstyle-github-action@v2.0.0
         with:
           path: "**/checkstyle-result.xml"
