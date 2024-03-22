@@ -112,8 +112,9 @@
 	</build>
 	 <distributionManagement>
             <repository>
-             <id>ossrh</id>
-              <name>Central Repository OSSRH</name>
+             <id>github</id>
+		<name>GitHub Packages</name>
+      
              <url>https://maven.pkg.github.com/CodeBanalfa/pokedex-back</url>
           </repository>
          </distributionManagement>
