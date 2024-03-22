@@ -69,7 +69,7 @@
 
 	<build>
 		<plugins>
-			<plugins>
+            <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
@@ -83,7 +83,7 @@
                     <configLocation>ci/check.xml</configLocation>
                 </configuration>
             </plugin>
-      
+            <!--PMD -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
@@ -105,8 +105,9 @@
                     <xmlOutput>true</xmlOutput>
                     <failOnError>false</failOnError>
                 </configuration>
-            </plugin>			
-		</plugins>
+            </plugin>
+
+        </plugins> 
 	</build>
 
 </project>
